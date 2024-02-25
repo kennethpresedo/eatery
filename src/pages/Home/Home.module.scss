@@ -3,7 +3,7 @@ img {
     height: 600px; 
     object-fit: cover;
     object-position: 50% 70%; 
-    opacity: .9;
+    opacity: .5;
 }
 
 .head {
@@ -32,11 +32,10 @@ img {
     font-family: "Notable", sans-serif;
 }
 .middleB{
-    color: white;
-    font-size: 8vw;
-    font-weight: 400;
-    color: #b77f36;
-    font-family: "Raleway Dots", sans-serif;
+    margin-top: -1vw;
+    color: #555;
+    font-size: 6vw;
+    font-family: "Kode Mono", monospace;
 }
 
 .right {

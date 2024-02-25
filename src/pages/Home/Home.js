@@ -1,6 +1,7 @@
 import React from 'react'
 import restaurant from '/Users/kennethpresedo/Desktop/post-grad/eatery/src/assets/restaurant4.webp'
 import styles from './Home.module.scss'
+import About from '/Users/kennethpresedo/Desktop/post-grad/eatery/src/components/Home/About.js'
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
       <div className={styles.middle}>Branja<br /><span className={styles.middleB}>MIAMI</span></div>
       <div className={styles.right}>right</div>
     </div>
+    <About />
     </>
   )
 }
