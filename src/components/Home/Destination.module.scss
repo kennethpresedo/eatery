@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+    font-family: "Playfair Display", serif;
+    color:#fff;
+    font-weight: 300;
+}
+.imgTwo{
+        width: 100%;
+        height: 650px; 
+        object-fit: cover;
+        object-position: 50% 45%;   
+    }
+
+.top{
+    font-size: 2.5vw;
+    width: 50%;
+    margin-left: 10%;
+    position: absolute;
+}
+
+.two{
+    font-family: "Kode Mono", monospace;
+    border-style: solid;
+    border-width: 1.5px;
+    border-radius: 100px;
+    padding: 1vw 2vw;
+    font-size: 1.2vw;
+}
+.two:hover{
+    background-color: rgb(63, 13, 13);
+    color: white;
+    cursor: pointer;
+    transition: 200ms;
+}

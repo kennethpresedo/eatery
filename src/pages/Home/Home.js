@@ -4,12 +4,13 @@ import styles from './Home.module.scss'
 import About from '/Users/kennethpresedo/Desktop/post-grad/eatery/src/components/Home/About.js'
 import Menu from '/Users/kennethpresedo/Desktop/post-grad/eatery/src/components/Home/Menu.js'
 import Reservations from '../../components/Home/Reservations'
+import Destination from '../../components/Home/Destination'
 
 function Home() {
   return (
     <>
     <div className={styles.head}>
-      <img src={restaurant} alt='intro'/>
+      <img className={styles.imgOne} src={restaurant} alt='intro'/>
       <div className={styles.left}>left</div>
       <div className={styles.middle}>Branja<br /><span className={styles.middleB}>MIAMI</span></div>
       <div className={styles.right}>right</div>
@@ -17,6 +18,7 @@ function Home() {
     <About />
     <Menu />
     <Reservations />
+    <Destination />
     </>
   )
 }

@@ -4,6 +4,7 @@ import styles from './Reservations.module.scss'
 const Reservations = () => {
     return (
         <>
+        <div className={styles.whole}>
             <div className={styles.top}>
                 Break Bread with Us
             <div className={styles.line}></div>
@@ -25,6 +26,7 @@ const Reservations = () => {
                     <div className={styles.d}>Join us every Saturday and Sunday on our open air terrace for Brunch.</div>
                     <div className={styles.e}>*We kindly ask you to arrive on time. Seats are time limited. Dress Code: Smart nostalgia & 1970’s welcome!</div>
                 </div>
+            </div>
             </div>
         </>
     )
