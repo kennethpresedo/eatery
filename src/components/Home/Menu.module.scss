@@ -1,0 +1,116 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 60vw;
+    color:  rgb(63, 13, 13);
+    padding-right: 5%;
+}
+
+.linesA {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 55vw;  
+    border-top: 1px solid rgb(63, 13, 13);
+    border-right:  1px solid rgb(63, 13, 13);
+    border-radius: 0 0 20px 0;
+    border-bottom: 1px solid rgb(63, 13, 13);
+}
+.linesB {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 54vw; 
+    margin-right: .5vw;
+    border-top: 1px solid rgb(63, 13, 13);
+    border-right:  1px solid rgb(63, 13, 13); 
+    border-radius: 0 0 20px 0;
+    border-bottom: 1px solid rgb(63, 13, 13);
+}
+.linesC {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-right: .5vw;
+    height: 53vw;  
+    border-top: 1px solid rgb(63, 13, 13);
+    border-right:  1px solid rgb(63, 13, 13); 
+    border-bottom: 1px solid rgb(63, 13, 13);
+    border-radius: 0 0 20px 0;
+}
+
+.linesD {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-right: .5vw;
+    height: 52vw;  
+    border-top: 1px solid rgb(63, 13, 13);
+    border-right:  1px solid rgb(63, 13, 13); 
+    border-bottom: 1px solid rgb(63, 13, 13);
+    border-radius: 0 0 20px 0;
+}
+.left {
+    width: 50%;
+    float: left;
+    background-image: url('/assets/plateoffood.jpeg');
+    background-position: center;
+    background-size: cover;
+    height: 45vw;
+    padding-right: 2vw;
+}
+
+.right {
+    width: 50%;
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 45vw;
+    padding-left: 4vw;
+}
+
+.A {
+    font-family: "Kode Mono", monospace;
+    font-size: 1.5vw;
+}
+
+.B {
+    width: 6vw;
+    border-bottom: solid;
+    border-width: 1px;
+}
+
+.C {
+    font-family: "Playfair Display", serif;
+    font-size: 3.5vw;
+    width: 70%;
+}
+
+.D {
+    font-family: "Playfair Display", serif;
+    font-size: 1.2vw;
+    width: 70%;
+}
+
+.E {
+    font-family: "Kode Mono", monospace;
+    border-style: solid;
+    border-width: 1.5px;
+    border-radius: 100px;
+    padding: 1vw 2vw;
+    font-size: 1.4vw;
+    width: 7.8vw;
+}
+
+.E:hover {
+    background-color: rgb(63, 13, 13);
+    color: white;
+    cursor: pointer;
+}

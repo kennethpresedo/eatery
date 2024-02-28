@@ -1,13 +1,13 @@
 .container{
-    height: 50vw;
-    //background-image: url('/assets/background.jpeg');
-    background-image: url('/assets/4c3402a654aefdde337e34e360e938ec.jpeg');
+    background-image: url('/assets/background.jpeg');
+    //background-image: url('/assets/4c3402a654aefdde337e34e360e938ec.jpeg');
     background-size: cover;  
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: space-evenly;
     color:  rgb(63, 13, 13);
+    height: 50vw;
 }
 .A{
     font-family: "Kode Mono", monospace;
