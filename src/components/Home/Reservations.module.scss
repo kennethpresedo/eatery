@@ -1,0 +1,126 @@
+.top{
+    margin-top: 2vw;
+    font-size: 4.7vw;
+    color: rgb(63, 13, 13);
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.line{
+    width: 9vw;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: rgb(63, 13, 13);
+    margin-top: 2vw;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    color: rgb(63, 13, 13);
+    height: 45vw;
+    font-family: "Playfair Display", serif;
+    margin-top: -2vw;
+}
+
+.left {
+    width: 40%;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: #efeae4;
+    height: 25vw;
+    padding: 2%;
+    border-radius: 20px;
+}
+
+.right {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: #efeae4;
+    height: 25vw;
+    padding: 2%;
+    border-radius: 20px;
+}
+
+.A {
+    font-size: 2.5vw;
+}
+
+.B,
+.C,
+.D {
+    font-size: 1.2vw;
+}
+
+.E {
+    font-family: "Kode Mono", monospace;
+    border-style: solid;
+    border-width: 1.5px;
+    border-radius: 100px;
+    padding: 1vw 2vw;
+    font-size: 1.2vw;
+    background-color: rgb(63, 13, 13);
+    color: white;
+}
+
+.E:hover {
+    cursor: pointer;
+    background-color: transparent;
+    color: rgb(63, 13, 13);
+    transition: 600ms;
+}
+
+.F {
+    font-size: 1.25vw;
+    text-align: center;
+
+}
+
+.a {
+
+    font-size: 2.5vw;
+}
+
+.b {
+    font-size: 1.2vw;
+}
+
+.c{
+    font-family: "Kode Mono", monospace;
+    border-style: solid;
+    border-width: 1.5px;
+    border-radius: 100px;
+    padding: 1vw 2vw;
+    font-size: 1.2vw;
+    background-color: rgb(63, 13, 13);
+    color: white;
+}
+
+.c:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color: rgb(63, 13, 13);
+    transition: 600ms;
+
+}
+.d{
+    font-size: 1.25vw;
+    text-align: center;
+}
+
+.e{
+    font-size: 1.25vw;
+    text-align: center;
+
+}

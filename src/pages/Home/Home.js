@@ -3,6 +3,7 @@ import restaurant from '/Users/kennethpresedo/Desktop/post-grad/eatery/src/asset
 import styles from './Home.module.scss'
 import About from '/Users/kennethpresedo/Desktop/post-grad/eatery/src/components/Home/About.js'
 import Menu from '/Users/kennethpresedo/Desktop/post-grad/eatery/src/components/Home/Menu.js'
+import Reservations from '../../components/Home/Reservations'
 
 function Home() {
   return (
@@ -15,12 +16,9 @@ function Home() {
     </div>
     <About />
     <Menu />
+    <Reservations />
     </>
   )
 }
 
 export default Home
-
-{/* <video width="max-width" height="700" playing={true} controls >
-<source src={video} type="video/mp4"/>
-</video> */}
