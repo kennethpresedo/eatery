@@ -5,6 +5,7 @@ import About from '/Users/kennethpresedo/Desktop/post-grad/eatery/src/components
 import Menu from '/Users/kennethpresedo/Desktop/post-grad/eatery/src/components/Home/Menu.js'
 import Reservations from '../../components/Home/Reservations'
 import Destination from '../../components/Home/Destination'
+import Chef from '../../components/Home/Chef'
 
 function Home() {
   return (
@@ -19,6 +20,7 @@ function Home() {
     <Menu />
     <Reservations />
     <Destination />
+    <Chef />
     </>
   )
 }
