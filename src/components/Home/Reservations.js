@@ -29,10 +29,13 @@ const Reservations = () => {
                 </div>
             </div>
             <div className={styles.lineBox}>
-                <div className={styles.lineA}></div>
-                <div className={styles.lineB}></div>
-                <div className={styles.lineC}></div>
-                <div className={styles.lineD}></div>
+                <div className={styles.lineA}>
+                    <div className={styles.lineB}>
+                        <div className={styles.lineC}>
+                            <div className={styles.lineD}></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </>
     )
