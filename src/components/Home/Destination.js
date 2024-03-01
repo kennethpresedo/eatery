@@ -8,8 +8,8 @@ const Destination = () => {
             <div className={styles.container}>
                 <img className={styles.imgTwo} src={banner3} alt='dish' />
                 <div className={styles.top}>
-                    Branja plays host to a home that knows when breaking bread together we do more than simply enjoy food—we also digest conversation and tradition while we savor the aesthetics of our surroundings subconsciously.<br /><br /> 
-                   <span className={styles.two}>DESTINATION BRANJA</span>
+                    Trofi plays host to a home that knows when breaking bread together we do more than simply enjoy food—we also digest conversation and tradition while we savor the aesthetics of our surroundings subconsciously.<br /><br /> 
+                   <span className={styles.two}>DESTINATION TROFI</span>
                 </div>
                 <div className={styles.bottom}>
                 </div>

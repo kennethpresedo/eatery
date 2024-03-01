@@ -1,0 +1,132 @@
+.container {
+    background-color: #a34501;
+    height: 30vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    color: #e2dace;
+    font-family: "Kode Mono", monospace;
+}
+
+.A {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 19vw;
+    font-size: 2vw;
+    justify-content: flex-start;
+    font-family: "Notable", sans-serif;
+    width: 25%;
+
+    .Aa {
+        font-family: "Kode Mono", monospace;
+        font-size: 1.3vw;
+    }
+}
+
+.B {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 16.667%;
+    font-family: "Playfair Display", serif;
+    height: 19vw;
+    font-size: 1.5vw;
+
+    .Ba {
+        font-family: "Kode Mono", monospace;
+        font-size: 1.2vw;
+    }
+}
+
+.C {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 16.667%;
+    height: 19vw;
+    font-size: 1.5vw;
+    font-family: "Playfair Display", serif;
+
+    .Ca {
+        font-family: "Kode Mono", monospace;
+        font-size: 1.2vw;
+    }
+}
+
+.D {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 16.667%;
+    height: 19vw;
+    font-size: 1.5vw;
+    font-family: "Playfair Display", serif;
+
+    .Da {
+        font-family: "Kode Mono", monospace;
+        font-size: 1.2vw;
+    }
+}
+
+.E {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 25%;
+    font-family: "Playfair Display", serif;
+    height: 19vw;
+    font-size: 1.5vw;
+
+    .Ea,
+    .Eb {
+        font-size: 1.5vw;
+        margin-bottom: 1vw;
+        font-family: "Kode Mono", monospace;
+    }
+    .input{
+        border-color: transparent;
+        border-radius: 100px;
+        padding: .9vw .8vw;
+        font-size: 1.2vw;
+        background-color: transparent;
+        font-family: "Kode Mono", monospace;
+         color: white;
+    }
+.form{
+    margin-top: 2vw;
+    background-color:  rgb(63, 13, 13);
+    border: solid 1px #e2dace;
+    border-radius: 100px; 
+    color: white;
+}
+.input:focus{
+    outline: none;
+}
+::placeholder{
+    color: #e2dace;
+    text-align: center;
+}
+  
+    .Eb{
+        border-style: solid;
+        border-width: 1.5px;
+        border-radius: 100px;
+        padding: 1vw 3vw;
+        font-size: 1.2vw;
+        background-color: rgb(63, 13, 13);
+        color: white;
+    }
+    .Eb:hover{
+        cursor: pointer;
+        color: rgb(63, 13, 13);
+        background-color: white;
+        transition: 300ms;
+    }
+}

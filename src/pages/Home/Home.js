@@ -7,6 +7,7 @@ import Reservations from '../../components/Home/Reservations'
 import Destination from '../../components/Home/Destination'
 import Chef from '../../components/Home/Chef'
 import Socials from '../../components/Home/Socials'
+import Footer from '../../components/Footer/Footer'
 
 function Home() {
   return (
@@ -14,7 +15,7 @@ function Home() {
     <div className={styles.head}>
       <img className={styles.imgOne} src={restaurant} alt='intro'/>
       <div className={styles.left}>left</div>
-      <div className={styles.middle}>Branja<br /><span className={styles.middleB}>MIAMI</span></div>
+      <div className={styles.middle}>TROFI<br /><span className={styles.middleB}>MIAMI</span></div>
       <div className={styles.right}>right</div>
     </div>
     <About />
@@ -23,6 +24,7 @@ function Home() {
     <Destination />
     <Chef />
     <Socials />
+    <Footer />
     </>
   )
 }
