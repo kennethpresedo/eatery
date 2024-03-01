@@ -9,9 +9,10 @@
 }
 .imgTwo{
         width: 100%;
-        height: 50vw; 
+        height: 45vw; 
         object-fit: cover;
-        object-position: 50% 45%;   
+        object-position: 50% 50%;   
+        filter: grayscale(20%);
     }
 
 .top{
@@ -28,10 +29,13 @@
     border-radius: 100px;
     padding: 1vw 2vw;
     font-size: 1.2vw;
-}
-.two:hover{
     background-color: rgb(63, 13, 13);
     color: white;
+}
+.two:hover{
     cursor: pointer;
     transition: 200ms;
+    background-color: white;
+    color: rgb(63, 13, 13);
+    transition: 300ms;
 }
