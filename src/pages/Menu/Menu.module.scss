@@ -1,0 +1,113 @@
+.head {
+    position: relative;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 99vw;
+    height: 35vw;
+    background-image: url('/assets/banner.webp');
+    background-size: cover;
+    background-position: 50% 85%;
+    filter: grayscale(30%);
+}
+
+.left {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    font-size: 4vw;
+}
+
+.middle {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3vw;
+    color: #fff;    
+    font-family: "Kode Mono", monospace;
+
+}
+.middleB{
+    color: #fff;
+    font-size: 5vw;    
+    font-family: "Playfair Display", serif;
+
+}
+
+.right {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
+.bottom{
+    height: 9vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(63, 13, 13);
+    font-family: "Kode Mono", monospace;
+    color: #e2dace;
+}
+
+.menuLinks{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    font-size: 1.5vw;
+    margin-top: 2%;
+
+}
+
+.disclaimer{
+    font-family: "Playfair Display", serif;
+    font-size: 1vw;
+}
+
+.dinner{
+    width: 16.67;
+}
+.brunch{
+    width: 16.67;
+}
+.cocktails{
+    width: 16.67;
+}
+.drinks{
+    width: 16.67;
+}
+.happyHour{
+    width: 16.67;
+}
+.sweets{
+    width: 16.67;
+}
+.dinner:hover{
+    opacity: .8;
+    cursor: pointer;
+}
+.brunch:hover{
+    opacity: .8;
+    cursor: pointer;
+}
+.cocktails:hover{
+    opacity: .8;
+    cursor: pointer;
+}
+.drinks:hover{
+    opacity: .8;
+    cursor: pointer;
+}
+.happyHour:hover{
+    opacity: .8;
+    cursor: pointer;
+}
+.sweets:hover{
+    opacity: .8;
+    cursor: pointer;
+}

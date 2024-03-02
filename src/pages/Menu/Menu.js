@@ -1,8 +1,44 @@
 import React from 'react'
+import styles from './Menu.module.scss'
+import Footer from '../../components/Footer/Footer'
+import Dinner from './Dinner'
 
 export const Menu = () => {
   return (
-    <div>Menu</div>
+    <>
+      <div className={styles.container}>
+        <div className={styles.head}>
+          <div className={styles.left}>left</div>
+          <div className={styles.middle}>OUR MENUS<br /><span className={styles.middleB}>Indulge and Savor</span></div>
+          <div className={styles.right}>right</div>
+        </div>
+        <div className={styles.bottom}>
+          <div className={styles.menuLinks}>
+            <div className={styles.dinner}>
+              DINNER MENU
+            </div>
+            <div className={styles.brunch}>
+              BRUNCH MENU
+            </div>
+            <div className={styles.cocktails}>
+              COCKTAILS
+            </div>
+            <div className={styles.drinks}>
+              AFTER DINNER DRINKS
+            </div>
+            <div className={styles.happyHour}>
+              HAPPY HOUR
+            </div>
+            <div className={styles.sweets}>
+              SWEETS
+            </div>
+          </div>
+          <div className={styles.disclaimer}>All menus are subject to change based on availability and seasonality.</div>
+        </div>
+      </div>
+      <Dinner />
+      <Footer />
+    </>
   )
 }
 
