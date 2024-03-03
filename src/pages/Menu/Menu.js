@@ -1,7 +1,12 @@
 import React from 'react'
 import styles from './Menu.module.scss'
 import Footer from '../../components/Footer/Footer'
-import Dinner from './Dinner'
+import Dinner from '../../components/Menu/Dinner'
+import Brunch from '../../components/Menu/Brunch'
+import Cocktails from '../../components/Menu/Cocktails'
+import Drinks from '../../components/Menu/Drinks'
+import HappyHour from '../../components/Menu/HappyHour'
+import Sweets from '../../components/Menu/Sweets'
 
 export const Menu = () => {
   return (
@@ -37,6 +42,11 @@ export const Menu = () => {
         </div>
       </div>
       <Dinner />
+      <Brunch />
+      <Cocktails />
+      <Drinks />
+      <HappyHour />
+      <Sweets />
       <Footer />
     </>
   )

@@ -1,0 +1,81 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: rgb(63, 13, 13);
+    height: 50vw;
+    width: 100%;
+}
+
+.listing{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    font-size: 1.5vw;
+    width: 50%;
+    font-family: "Kode Mono", monospace;
+    height: 50vw;
+}
+.wordColoum{
+    width: 70%;
+    height: 90%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    
+}
+.photo{
+    background-image: url('/assets/brunch.webp');
+    width: 50%;
+    background-size: cover;
+    height: 100%;
+    background-position: 50% 50%;
+}
+
+.title{
+    font-size: 3vw;
+    font-family: "Playfair Display", serif;
+}
+.hours{
+    font-family: "Kode Mono", monospace;
+    font-size: 1.2vw;
+    display: flex;
+    flex-direction: column;
+}
+.line{
+    width: 4vw;
+    border-bottom: solid;
+    border-width: 1px;
+}
+
+.featured{
+    font-family: "Playfair Display", serif;
+    font-weight: 800;
+    font-size: 1.7vw;
+}
+.item{
+    font-family: "Playfair Display", serif;
+    font-size: 1.3vw;
+}
+
+.description{
+    font-size: 1.1vw;
+}
+
+.button{
+    border-style: solid;
+    border-width: 1.5px;
+    border-radius: 100px;
+    padding: .7vw 1.5vw;
+    font-size: 1.3vw;
+    color: rgb(63, 13, 13);
+}
+.button:hover{
+    cursor: pointer;
+    transition: 300ms;
+    background-color: rgb(63, 13, 13);
+    color: white;
+}

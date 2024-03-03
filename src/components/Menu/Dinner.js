@@ -5,7 +5,7 @@ const Dinner = () => {
     return (
         <>
             <div className={styles.container}>
-                <div className={styles.left}>
+                <div className={styles.listing}>
                     <div className={styles.wordColoum}>
                     <div className={styles.title}>Dinner Menu</div>
                     <div className={styles.hours}>
@@ -25,7 +25,7 @@ const Dinner = () => {
                     <div className={styles.button}>FULL DINNER MENU</div>
                 </div>
                 </div>
-                <div className={styles.right}></div>
+                <div className={styles.photo}></div>
             </div>
         </>
     )
