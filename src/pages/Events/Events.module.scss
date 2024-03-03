@@ -1,0 +1,244 @@
+.containerA {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 65vw;
+    width: 100%;
+    color: rgb(63, 13, 13);
+    font-family: "Playfair Display", serif;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+
+.contentLeft {
+    display: flex;
+    flex-direction: column;
+    gap: 2.8vw;
+    align-items: flex-start;
+    width: 70%;
+    height: 70%;
+}
+
+.header {
+    font-size: 3.5vw;
+}
+
+.line {
+    width: 8vw;
+    border-bottom: solid;
+    border-width: 1px;
+}
+
+.text {
+    font-size: 1.3vw;
+}
+
+
+.contentRight {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    height: 100%;
+    gap: 1vw;
+    justify-content: flex-end;
+    font-size: 1.2vw;
+    margin-bottom: 15%;
+}
+
+.line1,
+.line2,
+.line3,
+.line4 {
+    display: inline-flex;
+    width: 100%;
+}
+
+.nameFirst,
+.email,
+.date,
+.private {
+    display: flex;
+    flex-direction: column;
+    width: 47.2%;
+    float: left;
+}
+
+.nameLast,
+.phone,
+.time,
+.guests {
+    display: flex;
+    flex-direction: column;
+    width: 47.2%;
+}
+
+.type,
+.notes {
+    width: 100%;
+}
+
+.button {
+    border-style: solid;
+    border-width: 1.5px;
+    border-radius: 100px;
+    padding: .7vw 3.5vw;
+    font-size: 1.3vw;
+    color: rgb(63, 13, 13);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:hover {
+    cursor: pointer;
+    transition: 300ms;
+    background-color: rgb(63, 13, 13);
+    color: white;
+}
+
+.input {
+    border-color: transparent;
+    padding: .7vw;
+    font-size: 1vw;
+    background-color: transparent;
+    color: rgb(63, 13, 13);
+    font-family: "Playfair Display", serif;
+}
+
+.form {
+    margin-top: .5vw;
+    border: solid 1px rgb(63, 13, 13);
+    color: white;
+    border-radius: 3px;
+    width: 90%;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.formNotes {
+    margin-top: .5vw;
+    border: solid 1px rgb(63, 13, 13);
+    color: white;
+    border-radius: 3px;
+    width: 90%;
+
+    .input {
+        border-color: transparent;
+        padding: 3vw;
+        font-size: 1vw;
+        background-color: transparent;
+        color: rgb(63, 13, 13);
+        font-family: "Playfair Display", serif;
+    }
+}
+
+.containerB {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 31vw;
+    width: 100%;
+    color: rgb(63, 13, 13);
+    font-family: "Playfair Display", serif;
+    background-color: #fff;
+}
+
+.leftB {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 98%;
+    float: left;
+}
+
+.leftContentsB {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    height: 70%;
+    font-size: 3vw;
+}
+
+.rightB {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 70%;
+    height: 100%;
+}
+
+.rightContentsLineDiv {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+
+    .rightContentsLine {
+        margin-top: 2%;
+        width: 90%;
+        height: 50%;
+        border-bottom: solid;
+        border-width: 2px;
+    }
+}
+
+.rightContentsB {
+    display: inline-flex;
+    justify-content: flex-start;
+    gap: 5.5vw;
+    width: 100%;
+    height: 33.3%;
+}
+
+.centerRow{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.location {
+    font-size: 1.4vw;
+    font-weight: 800;
+}
+
+.specs {
+    font-size: 1.2vw;
+}
+
+.rightContentsC {
+    text-align: left;
+    width: 100%;
+}
+
+.containerC{
+    height: 31vw;
+    width: 100%;
+    background-image: url('/assets/diningRoom.webp');
+    background-size: cover;
+    background-position: 50% 60%;
+}
