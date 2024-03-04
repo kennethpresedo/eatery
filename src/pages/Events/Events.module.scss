@@ -115,6 +115,22 @@
     color: white;
 }
 
+.select{
+    border: 1px solid rgb(63, 13, 13);
+    padding: .7vw;
+    font-size: 1vw;
+    background-color: transparent;
+    color: rgb(63, 13, 13);
+    font-family: "Playfair Display", serif;
+    border-radius: 3px;
+    width: 90%;
+}
+
+.select:focus{
+    outline: none;
+
+}
+
 .input {
     border-color: transparent;
     padding: .7vw;
@@ -145,7 +161,7 @@
 
     .input {
         border-color: transparent;
-        padding: 3vw;
+        height: 5.5vw;
         font-size: 1vw;
         background-color: transparent;
         color: rgb(63, 13, 13);
@@ -238,7 +254,7 @@
 .containerC{
     height: 31vw;
     width: 100%;
-    background-image: url('/assets/diningRoom.webp');
+    background-image: url('/assets/indoor.jpeg');
     background-size: cover;
-    background-position: 50% 60%;
+    background-position: 50% 50%;
 }

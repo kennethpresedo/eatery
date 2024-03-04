@@ -1,14 +1,23 @@
 import React from 'react'
+import {useEffect} from 'react'
 import styles from './Events.module.scss'
-// import AOS from 'aos';
-// import 'aos/dist/aos.css';
-// import { motion } from 'framer-motion;'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { motion } from 'framer-motion';
 import Footer from '../../components/Footer/Footer'
 const Events = () => {
+  useEffect(() => {
+    AOS.init();
+  }, [])
   return (
+    
     <>
       <div className={styles.containerA}>
-        <div className={styles.left}>
+        <motion.div 
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: .5, duration: 1}}
+        className={styles.left}>
           <div className={styles.contentLeft}>
             <div className={styles.header}>Elevate your private event at Trofi</div>
             <div className={styles.line}></div>
@@ -16,8 +25,12 @@ const Events = () => {
             <div className={styles.text}>Trofi: your ideal venue for Corporate and Social events, accommodating anywhere from 9 to 200 guests.</div>
             <div className={styles.text}>From birthday to Bar Mitzvah, Bris to bridal showers, corporate destinations, and everything in between, our venue is your perfect place for memorable celebrations, gatherings, and meetings!</div>
           </div>
-        </div>
-        <div className={styles.right}>
+        </motion.div>
+        <motion.div 
+           initial={{ opacity: 0 }}
+           animate={{ opacity: 1 }}
+           transition={{ delay: 1, duration: 1}}
+        className={styles.right}>
           <div className={styles.contentRight}>
             <div className={styles.line1}>
               <div className={styles.nameFirst}>First Name
@@ -52,13 +65,21 @@ const Events = () => {
             </div>
             <div className={styles.line4}>
               <div className={styles.private}>Is This a Private Event
-                <form className={styles.form}>
-                  <input className={styles.input} type="text" placeholder='' />
-                </form></div>
+                <select className={styles.select}>
+                  <option className={styles.option} value="0">No</option>
+                  <option className={styles.option} value="1">Yes</option>
+                </select>
+            
+                </div>
               <div className={styles.guests}>Number of Guests
-                <form className={styles.form}>
-                  <input className={styles.input} type="text" placeholder='' />
-                </form></div>
+                <select className={styles.select}>
+                  <option className={styles.option} value="0">10-25</option>
+                  <option className={styles.option} value="1">26-50</option>
+                  <option className={styles.option} value="2">51-75</option>
+                  <option className={styles.option} value="3">76-100</option>
+                  <option className={styles.option} value="4">101-125</option>
+                  <option className={styles.option} value="5">125+</option>
+                </select></div>
             </div>
             <div className={styles.type}>Event Type
               <form className={styles.form}>
@@ -70,10 +91,10 @@ const Events = () => {
               </form></div><br />
             <div className={styles.button}>SUBMIT</div>
           </div>
-        </div>
+        </motion.div>
       </div>
 
-      <div className={styles.containerB}>
+      <div className={styles.containerB} data-aos="fade-up">
         <div className={styles.leftB}>
           <div className={styles.leftContentsB}>Our Event Spaces</div>
         </div>
