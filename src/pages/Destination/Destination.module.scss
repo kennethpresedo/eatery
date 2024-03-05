@@ -1,0 +1,41 @@
+.head {
+    position: relative;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 42vw; 
+    background-image: url('/assets/buenaVista.webp');
+    background-position: 50% 43%;
+}
+
+.left {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+}
+
+.middle {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2vw;
+    font-family: "Kode Mono", monospace;
+    color: #fff;
+}
+.middleB{
+    margin-top: -1vw;
+    color: #fff;
+    font-size: 3.5vw;
+    font-family: "Kode Mono", monospace;
+}
+
+.right {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+}
