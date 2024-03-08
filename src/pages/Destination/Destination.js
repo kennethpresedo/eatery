@@ -3,6 +3,8 @@ import styles from './Destination.module.scss'
 import DineIn from '../../components/Destination/DineIn'
 import Oasis from '../../components/Destination/Oasis'
 import Colors from '../../components/Destination/Colors'
+import GettingThere from '../../components/Destination/GettingThere'
+import Footer from '../../components/Footer/Footer'
 
 const Destination = () => {
   return (
@@ -15,6 +17,8 @@ const Destination = () => {
       <DineIn />
       <Oasis />
       <Colors />
+      <GettingThere />
+      <Footer />
     </>
   )
 }
