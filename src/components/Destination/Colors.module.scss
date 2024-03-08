@@ -1,0 +1,36 @@
+.container{
+    height: 35vw;
+    width: 100%;
+}
+
+.content{
+    height: 100%;
+    position: relative;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.colorsBackground{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 50%; 
+    filter:blur(2px);
+    opacity: .7;
+}
+
+.textBox{
+    position: absolute;
+    width: 70%;
+    margin-left: 7%;
+}
+
+.text{
+    font-size: 2.5vw;
+    font-weight: 300;
+    font-family: "Playfair Display", serif;
+    text-shadow: rgb(63, 13, 13) 1px 1px;
+}

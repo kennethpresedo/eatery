@@ -1,0 +1,85 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 47vw;
+    font-family: "Playfair Display", serif;
+    color:  rgb(63, 13, 13);
+    background-color: #f3f0eb;
+}
+.A{
+    font-size: 2vw;
+    font-family: "Kode Mono", monospace;
+}
+
+.B{
+    font-size: 3vw;
+}
+
+.C{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.photoOne{
+    background-image: url('/assets/sherwood.jpeg');
+    width: 20vw;
+    height: 25vw;
+    border: solid 1vw #f3f0eb;
+    background-size: cover;
+    background-position: center;
+}
+
+.photoTwo{
+    background-image: url('/assets/elPortal2.webp');
+    width: 20vw;
+    height: 25vw;
+    border: solid 1vw #f3f0eb;
+    background-size: cover;
+    background-position: center;
+    background-position: 30% 50%;
+    background-repeat: no-repeat;
+}
+
+.photoThree{
+    background-image: url('/assets/elPortal3.jpeg');
+    width: 20vw;
+    height: 25vw;
+    border: solid 1vw #f3f0eb;
+    background-size: cover;
+    background-position: center;      
+}
+
+.photoFour{
+    background-image: url('/assets/elPortal.jpeg');
+    width: 20vw;
+    height: 25vw;
+    border: solid 1vw #f3f0eb;
+    background-size: cover;
+    background-position: center;
+      
+}
+
+.photoOne:hover{
+    filter:sepia(50%);
+    transition: 200ms;
+    cursor: pointer;
+}
+.photoTwo:hover{
+    filter:sepia(50%);
+    transition: 200ms;
+    cursor: pointer;
+}
+.photoThree:hover{
+    filter:sepia(50%);
+    transition: 200ms;
+    cursor: pointer;
+}
+.photoFour:hover{
+    filter:sepia(50%);
+    transition: 200ms;
+    cursor: pointer;
+}
