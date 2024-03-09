@@ -1,0 +1,75 @@
+.container{
+    height: 50vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    color:  rgb(63, 13, 13);
+    font-family: "Playfair Display", serif;
+}
+
+.head{
+    width: 100%;
+    font-size: 4vw;    
+    text-align: center;
+}
+
+.line{
+    width: 85vw;
+    border-bottom:rgb(63, 13, 13) solid;
+    border-width:  .5px;
+}
+
+.pressLineContainer{
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4vw;
+}
+
+.pressLine1{
+    height: fit-content;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 8vw;
+}
+
+.site{
+    width: 20%;
+    float: left;
+    background-image: url('/assets/vogue.jpeg');
+}
+
+.quote{
+    width: 80%;
+    font-size: 2.1vw;
+    display: flex;
+    flex-direction: column;
+    font-style: italic;
+}
+
+.quoteImg{
+    font-size: 7vw;
+}
+.pressLine2{
+    height: fit-content;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 8vw;
+}
+.pressLine3{
+    height: fit-content;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 8vw;
+}
