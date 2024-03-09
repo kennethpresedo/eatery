@@ -1,5 +1,5 @@
 .container{
-    height: 50vw;
+    height: 45vw;
     width: 100%;
     display: flex;
     align-items: center;
@@ -7,6 +7,10 @@
     flex-direction: column;
     color:  rgb(63, 13, 13);
     font-family: "Playfair Display", serif;
+    background-image: url('/assets/grain.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .head{
@@ -72,4 +76,31 @@
     flex-direction: row;
     justify-content: space-between;
     gap: 8vw;
+}
+
+.site1{
+    width: 20%;
+    float: left;
+    background-image: url('/assets/times.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.site2{
+    width: 20%;
+    float: left;
+    background-image: url('/assets/dish.png');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.site3{
+    width: 20%;
+    float: left;
+    background-image: url('/assets/eater.png');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 50% 25%;
 }
