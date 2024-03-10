@@ -5,6 +5,10 @@
 
 :root {
 
+  background-image: url('/Users/kennethpresedo/Desktop/post-grad/eatery/src/assets/grain2.jpg');
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
   body{
     margin: 0 auto;
   }

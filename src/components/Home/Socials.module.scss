@@ -5,7 +5,11 @@
     align-items: center;
     height: 47vw;
     font-family: "Playfair Display", serif;
-    color:  rgb(63, 13, 13);
+    color:  rgb(63, 13, 13); 
+    background-image: url('/assets/grain2.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .A{
     font-size: 2vw;
