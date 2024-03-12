@@ -8,21 +8,39 @@ const OurStory = () => {
     <>
       <div className={styles.container}>
       <motion.div
-    whileHover={{ scale: 1,  rotateZ: 90}}
+    whileHover={{ scale: 1, borderRadius: "100%"}}
     whileTap={{
-      scale: 0.8,
-      rotate: -90,
-      borderRadius: "100%"
+      rotate: 360,
+      scale: 0.5
     
-  }} className={styles.photoIn}>
-    <motion.div className={styles.inside}
-      whileHover={{
-        scale: 0,
-        transition: { duration: .2 },
-      }}
-    
-    ></motion.div>
+  }} className={styles.photoIn}>EAT
   </motion.div>
+  <motion.div
+    whileHover={{ scale: 1, borderRadius: "100%"}}
+    whileTap={{
+      rotate: 360,
+      scale: 0.5
+    
+  }} className={styles.photoIn2}>DRINK
+  </motion.div>
+  <motion.div
+    whileHover={{ scale: 1, borderRadius: "100%"}}
+    whileTap={{
+      rotate: 360,
+      scale: 0.5
+    
+  }} className={styles.photoIn3}>RELAX
+  </motion.div>
+  <a href="https://localhost:3000/menu" target="_blank" rel="noreferrer">
+  <motion.div
+    whileHover={{ scale: 1, borderRadius: "100%"}}
+    whileTap={{
+      rotate: 360,
+      scale: 0.5
+    
+  }}  className={styles.photoIn4}>
+    AMBIANCE
+  </motion.div></a>
 
       </div>
     </>

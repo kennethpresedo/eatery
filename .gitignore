@@ -23,7 +23,7 @@ yarn-debug.log*
 yarn-error.log*
 
 # config.py
-api_key = "AIzaSyBtVeraBauX9J3EytY2GHyCCSAo9-IK1P8"
+"API_SECRET_KEY" = "AIzaSyBtVeraBauX9J3EytY2GHyCCSAo9-IK1P8"
 
 # .gitignore 
 config.py
